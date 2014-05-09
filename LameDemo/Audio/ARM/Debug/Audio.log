@@ -1,0 +1,46 @@
+﻿生成启动时间为 2014/5/9 15:07:26。
+     1>项目“C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\Audio.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\bin\x86_arm\CL.exe /c /I"C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\\" /I"Generated Files\\" /IARM\Debug\ /AI"C:\Program Files (x86)\Windows Phone Kits\8.0\Windows Metadata" /Zi /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _WINRT_DLL /D _WINDLL /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_PHONE_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"ARM\Debug\\" /Fd"ARM\Debug\vc110.pdb" /Gd /TP /FU"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\lib\arm\platform.winmd" /FU"C:\Program Files (x86)\Windows Phone Kits\8.0\Windows Metadata\Windows.winmd" /analyze- /errorReport:prompt LameWrapper.cpp
+         LameWrapper.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\bin\x86_arm\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\SandCu_Audio.dll" /INCREMENTAL /NOLOGO "libmpghip-static.lib" "libmp3lame-static.lib" libmad.lib WindowsPhoneCore.lib RuntimeObject.lib PhoneAppModelHost.lib /NODEFAULTLIB:ole32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\SandCu_Audio.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /WINMD /WINMDFILE:"C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\SandCu_Audio.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:ARM /NODEFAULTLIB:MSVCRT /DLL ARM\Debug\CompressedMp3Content.obj
+         ARM\Debug\LameWrapper.obj
+         ARM\Debug\LibmadWrapper.obj
+         ARM\Debug\pch.obj
+         ARM\Debug\RawPCMContent.obj
+            Creating library C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\SandCu_Audio.lib and object C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\SandCu_Audio.exp
+     1>libmpghip-static.lib(common.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmpghip-static.lib(dct64_i386.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmpghip-static.lib(decode_i386.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmpghip-static.lib(interface.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmpghip-static.lib(layer1.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmpghip-static.lib(layer2.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmpghip-static.lib(layer3.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmpghip-static.lib(tabinit.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(bitstream.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(encoder.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(fft.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(gain_analysis.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(id3tag.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(lame.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(mpglib_interface.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(newmdct.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(presets.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(psymodel.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(quantize.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(quantize_pvt.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(reservoir.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(set_get.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(tables.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(takehiro.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(util.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(vbrquantize.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(VbrTag.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>libmp3lame-static.lib(version.obj) : warning LNK4204: 'C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         Audio.vcxproj -> C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\ARM\Debug\SandCu_Audio.dll
+     1>已完成生成项目“C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Audio\Audio.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.74

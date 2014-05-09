@@ -1,0 +1,41 @@
+﻿生成启动时间为 2014/5/8 18:59:11。
+     1>项目“C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\libmad\libmad.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\bin\CL.exe /c /AI"C:\Program Files (x86)\Windows Phone Kits\8.0\Windows Metadata" /ZI /nologo /W1 /WX- /Od /Oy- /D _LIB /D WINAPI_FAMILY=WINAPI_FAMILY_PHONE_APP /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Debug\libmad.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\bin\CL.exe /c /AI"C:\Program Files (x86)\Windows Phone Kits\8.0\Windows Metadata" /ZI /nologo /W1 /WX- /Od /Oy- /D _LIB /D WINAPI_FAMILY=WINAPI_FAMILY_PHONE_APP /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt bit.cpp decoder.cpp fixed.cpp frame.cpp huffman.cpp layer12.cpp layer3.cpp libmad.cpp stream.cpp synth.cpp timer.cpp version.cpp wrapper.cpp
+         wrapper.cpp
+         version.cpp
+         timer.cpp
+         synth.cpp
+         stream.cpp
+         libmad.cpp
+         layer3.cpp
+         layer12.cpp
+         huffman.cpp
+         frame.cpp
+         fixed.cpp
+         decoder.cpp
+         bit.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\bin\Lib.exe /OUT:"C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Debug\libmad\libmad.lib" /NOLOGO Debug\bit.obj
+         Debug\decoder.obj
+         Debug\fixed.obj
+         Debug\frame.obj
+         Debug\huffman.obj
+         Debug\layer12.obj
+         Debug\layer3.obj
+         Debug\libmad.obj
+         Debug\pch.obj
+         Debug\stream.obj
+         Debug\synth.obj
+         Debug\timer.obj
+         Debug\version.obj
+         Debug\wrapper.obj
+         libmad.vcxproj -> C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\Debug\libmad\libmad.lib
+     1>已完成生成项目“C:\Users\SandCu\documents\visual studio 2012\Projects\LameDemo\libmad\libmad.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.41
